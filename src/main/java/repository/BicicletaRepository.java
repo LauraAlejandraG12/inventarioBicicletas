@@ -30,14 +30,12 @@ public class BicicletaRepository {
 
             System.out.println("Bicicleta agregada con exito al inventario");
 
-            /* Atrapamos posible error si es que lo hay */
         } catch (Exception e) {
-            /* imprime en consola el error que se produjo */
             e.printStackTrace();
         }
     }
 
-    // Listar usuarios
+    // Listar bicicletas
     public static List<Bicicleta> listarBicicletas() {
         List<Bicicleta> lista = new ArrayList<>(); // creamos el array vacio
 

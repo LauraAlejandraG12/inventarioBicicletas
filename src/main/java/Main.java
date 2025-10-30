@@ -13,6 +13,9 @@ public class Main {
 
         while (seguir) {
 
+            System.out.println("-----Menú----");
+            System.out.println("¿Que deseas hacer?\n1.Comprar bicicletas\n2.Administrar bicicletas")
+
             System.out.println("----------Inventario bicicletas---------");
             System.out.println(
                     "¿Que desea hacer?\n1. Agregar bicleta\n2. Ver bicicletas\n3. Buscar por Marca \n4. Buscar por ID\n5. Buscar por color\n6. Eliminar bicicleta\n7. Actualizar información \n8. salir");

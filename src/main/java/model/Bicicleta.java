@@ -8,7 +8,7 @@ public class Bicicleta {
     private double precio;
     private Integer cantidad;
 
-    /*Constructor para insertar usuarios */
+   
     public Bicicleta(String marca, String modelo, String color, double precio, Integer cantidad){
         this.marca = marca;
         this.modelo = modelo;
@@ -17,7 +17,6 @@ public class Bicicleta {
         this.cantidad = cantidad;
     }
 
-    /*Constructor para listar usuarios */
 
     public Bicicleta(Integer id, String marca, String modelo, String color, double precio, Integer cantidad){
         this.id = id;
